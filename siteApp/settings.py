@@ -83,6 +83,8 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': BASE_DIR / 'db.sqlite3',
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'tet',
+
 
     }
 }
@@ -120,11 +122,8 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
-
-STATIC_ROOT = (BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 LOGIN_URL = 'login'
 
